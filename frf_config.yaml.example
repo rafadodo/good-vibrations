@@ -1,0 +1,6 @@
+dirs: {'X':0, 'Y':1, 'Z':2}
+excit_dir: 'X'
+colors: {'X': 'r', 'Y': 'g', 'Z': 'b'}
+subcase_label: 1
+subsystem_mass: 0.157 # [kg]
+base_accel: 9810 # [mm/s^2]

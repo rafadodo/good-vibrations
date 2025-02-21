@@ -1,0 +1,11 @@
+# Safety Factors
+k_p: 1.15  # Project factor
+k_m: 1.2  # Modeling factor
+fos_y: 1.25  # Yield failure factor of safety
+fos_u: 1.4  # Ultimate failure factor of safety
+fos_separation: 1.4  # Separation failure factor of safety (same as FOS_U)
+fos_slip: 1.4  # Slip failure factor of safety (same as FOS_U)
+k_f: 1.0  # Fitting factor
+fos_install_y: 1.0  # Installation yield failure factor of safety
+fos_install_u: 1.0  # Installation ultimate failure factor of safety
+eng_len_factor: 1.0  # Engaged length factor (times Diameter)

@@ -1,0 +1,11 @@
+# Tightening parameters
+tool_scatter: 0.1  # Tool scatter factor
+preload_loss: 0.05  # Preload-loss factor
+m_prev_min: 0  # Minimum prevailing torque
+m_prev_max: 0  # Maximum prevailing torque
+nut_factor: 0.2
+nut_f_uncert: 0.35  # Uncertainty Factor: Torque-measurement of unlubricated fasteners
+head_min_fric: 0.14  # Minimum underhead friction coefficient
+clamp_min_fric: 0.21  # Minimum clamped components friction coefficient
+force_ratio_low: 0  # Force Ratio Lower Bound
+force_ratio_up: 1  # Force Ratio Upper Bound

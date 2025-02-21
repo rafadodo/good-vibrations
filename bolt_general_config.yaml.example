@@ -1,0 +1,37 @@
+# Bolted joint settings
+number_of_bolts: 4
+clamped_mat_name: 'G10'
+bolt_mat_name: 'A2-70 Rigid'
+thread_diam: 4
+half_thread_angle: 30
+hole_diam: 4.3
+bolt_bending_logical: false
+
+# Conversion factors
+force_units_factor: 1000 # mN to N
+moment_units_factor: 1000 # mN.mm to N.mm
+
+# Load cases
+load_cases: ['Grav X', 'Grav Y', 'Grav Z', 'Rand X', 'Rand Y', 'Rand Z']
+loadcase_idx: 4
+
+# Thread sheet settings
+thread_sheet_filename: '\...\DIN 912 Bolt Properties.ods"
+thread_sheet_col_range: 'B:V'
+thread_sheet_headers_row: 2
+
+# Load sheet settings
+loads_sheet_filename: '\...\Interface bolts output loads.ods'
+loads_sheet_col_range: 'K:M'
+loads_sheet_headers_row: 2
+
+# Materials sheet settings
+materials_sheet_filename: '\...\Bolt Material properties.ods'
+materials_sheet_col_range: 'C:I'
+materials_sheet_headers_row: 2
+
+# Output sheet settings
+output_sheet_filename: '\...\Beam output margins.ods'
+output_df_headers: ['Tightening', 'Slip', 'Separation', 'Shear', 'Axial', 'Combined', 'Thread Pull Out']
+
+
